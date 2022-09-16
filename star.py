@@ -1,6 +1,10 @@
-x=int(input('숫자를 입력하세요: '))
-i=1
-while i<=x:
-    sum = '*'*i
-    print(str(sum).rjust(x))
-    i+=1
+
+import sys
+n= int(sys.stdin.readline())
+
+for i in range(1,n+1):
+    print(' '*(n-i)+'*'*(i))
+
+   
+        
+        
